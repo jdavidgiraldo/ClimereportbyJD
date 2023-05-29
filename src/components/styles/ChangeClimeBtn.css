@@ -1,0 +1,22 @@
+.temp_btn {
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 10px 40px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-size: 0.9rem;
+  color: rgb(253, 252, 250);
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+  background: linear-gradient(89.52deg, rgba(0, 23, 86, 0.8), rgba(2, 164, 239, 0.3));
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.temp_btn:hover {
+  background-color: rgba(0, 23, 86, 0.8);
+  box-shadow: 0 0 20px rgb(250, 249, 248);
+  cursor: pointer;
+  color: rgb(250 204 21);
+}
